@@ -1,5 +1,7 @@
 package com.github.mproberts.rxtools.list;
 
+import com.github.mproberts.rxtools.types.Predicate;
+
 import io.reactivex.functions.Consumer;
 import io.reactivex.functions.Function;
 
@@ -8,7 +10,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
-import java.util.function.Predicate;
 
 /**
  * A basic FlowableList implementation which behaves much like a generic List. Additions, removals,

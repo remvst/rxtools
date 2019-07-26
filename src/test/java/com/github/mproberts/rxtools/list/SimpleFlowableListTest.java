@@ -1,9 +1,10 @@
 package com.github.mproberts.rxtools.list;
 
+import com.github.mproberts.rxtools.types.Predicate;
+
 import org.junit.Test;
 
 import java.util.Arrays;
-import java.util.function.Predicate;
 
 import io.reactivex.subscribers.TestSubscriber;
 
